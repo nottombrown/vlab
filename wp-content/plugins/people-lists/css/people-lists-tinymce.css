@@ -1,0 +1,90 @@
+/** 
+ * Plugin Name: People Lists
+ * Plugin URI: http://www.ctlt.ubc.ca 
+ * Description: Plugin providing a rich text editor on the profile page for easy modifications of specific user profile    
+ *				information that can be displayed on any page using the [people-lists list=example-list] shortcode. Users 
+ *				will also be able to add custom fields to their user profile and these fields can be displayed on any page 
+ * 				using the People Lists template (which can be styled using HTML) that provides codes for every field that is 
+ *				desired to be displayed.     
+ * Author: Gagan Sandhu / Enej Bajgoric / CTLT DEV
+ * Version: 1.2
+ * Author URI: http://www.ctlt.ubc.ca 
+ *  
+ * GNU General Public License, Free Software Foundation <http://creativecommons.org/licenses/GPL/2.0/>
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ */
+ 
+/* CSS for TinyMCE in Your Profile */
+#profile-page #your-profile .form-table .visual,
+#profile-page #your-profile .form-table .plain {
+	float: right;
+	margin-top: -25px;
+	border:1px solid #DFDFDF;
+	border-bottom-color: #E9E9E9;
+	text-decoration: none;
+	padding: 1px 20px 4px;
+	-moz-border-radius: 3px 3px 0px 0px	; /* FF1+ */
+  	-webkit-border-radius: 3px; /* Saf3+, Chrome */
+    border-radius: 3px; /* Opera 10.5, IE 9 */
+    background: #F1F1F1;
+	color:#999;
+}
+#profile-page #your-profile .form-table .visual {
+	margin-right: 2px;
+}
+#profile-page #your-profile .form-table .plain{
+	margin-right:0px;
+}
+
+/* SETTINGS FOR A LARGER TINYMCE AREA - Recommended & Defaulted */ 
+/*----------------------------------------------------- */
+#profile-page .form-table #description {
+	width: 100%;
+	height: 325px;
+	margin-top: -2px;
+	border:0;
+	border-bottom:1px solid #000;
+	border-top:33px solid #E9E9E9;
+}
+#profile-page #your-profile .form-table a.active{
+	background: #E9E9E9;
+	border-color: #DFDFDF;
+	color:#333;
+	border-bottom-color: #E9E9E9;
+}
+/*----------------------------------------------------- */
+/* SETTINGS FOR A SMALLER TINYMCE AREA */
+/*-----------------------------------------------------
+
+.wp_themeSkin tr.mceFirst td.mceToolbar  {
+	float:none;
+}
+.wp_themeSkin .mceStatusbar {
+	float:none;
+}
+#profile-page .form-table textarea#description {
+	height:280px;
+}
+.wp_themeSkin .mceIframeContainer {
+	width:500px;
+}
+
+.form-table td {
+	float:left;
+	width: 68%;
+}
+-----------------------------------------------------*/
+
+/* --- End of File --- */
