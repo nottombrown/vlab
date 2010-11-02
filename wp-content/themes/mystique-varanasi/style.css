@@ -1,0 +1,40 @@
+/*
+Theme Name:     Varanasi
+Theme URI:      http: //example.com/
+Description:    Child theme for the Mystique theme designed for the varanasi group
+Author:         Tom Brown
+Author URI:     http: //example.com/about/
+Template:       mystique
+Version:        0.1.0
+*/
+
+@import url("../mystique/style.css");
+
+.entry-utility {
+    display:none;
+}
+
+#entry-author-info {
+  display:none;
+}
+
+.person {
+  position:relative;
+  margin:5px;
+  background-color:#EEE;
+  border: solid 1px;
+}
+
+.person .user-thumbnail {
+  display:inline-block;
+  position:relative;
+}
+.person .user-info-block {
+  position:absolute;
+  display:inline-block;
+  top:0px;
+}
+
+#copyright {
+  display:none;
+}
