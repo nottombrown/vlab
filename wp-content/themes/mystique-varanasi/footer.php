@@ -91,6 +91,17 @@
  <?php endif; ?>
 
     <div class="page-content">
+    <div id="copyright" style="display:none">
+
+     <?php echo do_shortcode(stripslashes(get_mystique_option('footer_content'))); ?>
+
+     <!--[if lte IE 6]> <script type="text/javascript"> isIE6 = true; isIE = true; </script> <![endif]-->
+     <!--[if gte IE 7]> <script type="text/javascript"> isIE = true; </script> <![endif]-->
+
+     <?php wp_footer(); ?>
+
+    </div>
+
    </div>
   </div>
   <!-- /footer -->
