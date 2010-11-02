@@ -10,10 +10,30 @@ Version:        0.1.0
 
 @import url("../twentyten/style.css");
 
-#site-title a {
-    color: #009900;
-}
 .entry-utility {
-    color: #009900;
     display:none;
+}
+
+#entry-author-info {
+  display:none;
+}
+
+.person {
+  position:relative;
+  height:150px;
+  margin:5px;
+  background-color:#EEE;
+  border: solid 1px;
+}
+
+.person .user-thumbnail {
+  width:150px;
+  height:150px;
+  display:inline-block;
+  position:relative;
+}
+.person .user-info-block {
+  position:absolute;
+  display:inline-block;
+  top:0px;
 }

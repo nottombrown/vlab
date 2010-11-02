@@ -38,3 +38,8 @@ $wp_query = new WP_Query($args);
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
+
+
+
+
+

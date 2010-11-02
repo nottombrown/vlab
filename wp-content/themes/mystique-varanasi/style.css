@@ -38,3 +38,7 @@ Version:        0.1.0
 #copyright {
   display:none;
 }
+
+.post-info .comments {
+  display:none;
+} 
