@@ -20,9 +20,8 @@ Version:        0.1.0
 
 .person {
   position:relative;
-  margin:5px;
-  background-color:#EEE;
-  border: solid 1px;
+  margin:9px;
+  height:96px;
 }
 
 .person .user-thumbnail {
@@ -45,4 +44,18 @@ Version:        0.1.0
 
 .nav-extra {
   display:none;
+}
+
+#people-page {
+ display:inline;
+}
+
+.people-column{
+  display: inline;
+  padding:10px;
+  width:200px;
+  overflow:hidden;
+}
+
+#people-column-right{
 }
