@@ -17,14 +17,20 @@
      <div class="blocks">
        <?php do_action('mystique_before_primary'); ?>
        
-       <table width=100%>
+       <table width=100% valign=top>
        <tbody>
        <tr>
-       <td><h1 class="title">Graduate Students:</h1>
+       <td>
+       
+       <h1 class="title">Postdocs:</h1>
        <?php echo do_shortcode('[people-lists list=postdoctoral-researchers]'); ?>
+       
+       <h1 class="title">Graduate Students:</h1>
+       <?php echo do_shortcode('[people-lists list=graduate-students]'); ?>
+       
        </td>
-       <td><h1 class="title">Undergraduate Students:</h1>
-       <?php echo do_shortcode('[people-lists list=postdoctoral-researchers]'); ?>
+       <td valign=top><h1 class="title">Undergraduate Students:</h1>
+       <?php echo do_shortcode('[people-lists list=undergraduate-students]'); ?>
        </td>
        </tr>
        </tbody>
