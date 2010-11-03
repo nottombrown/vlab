@@ -42,3 +42,7 @@ Version:        0.1.0
 .post-info .comments {
   display:none;
 } 
+
+.nav-extra {
+  display:none;
+}
