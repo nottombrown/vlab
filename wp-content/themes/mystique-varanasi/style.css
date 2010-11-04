@@ -23,6 +23,11 @@ Version:        0.1.0
   margin:9px;
   height:96px;
   width:400px;
+  background-color:#EEE;
+  -moz-box-shadow: 3px 3px 3px #666;
+  -webkit-box-shadow: 3px 3px 3px #666;
+  box-shadow: 3px 3px 3px #666;
+
 }
 
 .person .user-thumbnail {
@@ -46,3 +51,8 @@ Version:        0.1.0
 .nav-extra {
   display:none;
 }
+
+.patents .title {
+  font-size:150%;
+}
+
