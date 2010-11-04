@@ -2,15 +2,6 @@
 
 add_action( 'init', 'create_post_type' );
 function create_post_type() {
-  register_post_type( 'research_item',
-    array(
-      'labels' => array(
-        'name' => __( 'Research Items' ),
-        'singular_name' => __( 'Research Items' )
-      ),
-      'public' => true
-    )
-  );
   register_post_type( 'sponsor',
        array(
          'labels' => array(

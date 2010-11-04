@@ -23,6 +23,7 @@
 <script>
 jQuery(document).ready(function($){
   $("#copyright").hide();
+  $(".page-research").click(function(){return false});
 });
 </script>
 
