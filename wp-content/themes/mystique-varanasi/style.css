@@ -22,6 +22,12 @@ Version:        0.1.0
   position:relative;
   margin:9px;
   height:96px;
+  width:400px;
+  background-color:#EEE;
+  -moz-box-shadow: 3px 3px 3px #666;
+  -webkit-box-shadow: 3px 3px 3px #666;
+  box-shadow: 3px 3px 3px #666;
+
 }
 
 .person .user-thumbnail {
@@ -46,16 +52,7 @@ Version:        0.1.0
   display:none;
 }
 
-#people-page {
- display:inline;
+.patents .title {
+  font-size:150%;
 }
 
-.people-column{
-  display: inline;
-  padding:10px;
-  width:200px;
-  overflow:hidden;
-}
-
-#people-column-right{
-}
