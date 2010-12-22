@@ -18,7 +18,7 @@
   <div id="main">
    <div id="main-inside" class="clear-block">
     <!-- primary content -->
-    <div id="primary-content">
+    <div id="primary-content" class="publications">
      <div class="blocks">
        <?php do_action('mystique_before_primary'); ?>
        <?php

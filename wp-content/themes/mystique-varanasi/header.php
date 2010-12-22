@@ -23,7 +23,7 @@
 <script>
 jQuery(document).ready(function($){
   $("#copyright").hide();
-  $(".page-research a:first").click(function(){return false});
+//  $(".page-research a:first").click(function(){return false});
 });
 </script>
 

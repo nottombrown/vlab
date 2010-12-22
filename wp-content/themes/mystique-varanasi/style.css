@@ -10,6 +10,13 @@ Version:        0.1.0
 
 @import url("../mystique/style.css");
 
+#site-title p.headline {
+    width: 600px;
+    line-height:32px;
+    font-size:160%;
+    color: #FFF !important;
+}
+
 .entry-utility {
     display:none;
 }
@@ -27,18 +34,34 @@ Version:        0.1.0
   -moz-box-shadow: 3px 3px 3px #666;
   -webkit-box-shadow: 3px 3px 3px #666;
   box-shadow: 3px 3px 3px #666;
-
+  overflow: hidden;
 }
 
 .person .user-thumbnail {
   display:inline-block;
   position:relative;
+  width:96px;
+  height:96px;
 }
 .person .user-info-block {
   position:absolute;
   display:inline-block;
+  height:96px;
+  width:304px;
   top:0px;
+  left:96px;
+  font-size:11px;
 }
+
+.user-info-block .user-name {
+  font-size:13px;
+  padding:2px;
+}
+.user-info-block .user-bio {
+  font-size:11px;
+  padding:0px 2px 2px 2px;
+}
+
 
 #copyright {
   display:none;
@@ -56,3 +79,6 @@ Version:        0.1.0
   font-size:150%;
 }
 
+.publications .title {
+  font-size:150%;
+}
